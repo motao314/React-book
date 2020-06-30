@@ -6,13 +6,13 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/cart';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/confirmBill';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/home';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/olist';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/product';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/search';
-export * from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/src/models/user';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/cart';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/confirmBill';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/home';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/olist';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/product';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/search';
+export * from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/src/models/user';
 
 export interface Action<T = any> {
   type: T

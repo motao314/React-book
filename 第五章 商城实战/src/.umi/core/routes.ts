@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { ApplyPluginsType } from '/Users/gaoshaoyun/workspace/0/tem/snow-mall-for-master/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from '/Users/gaoshaoyun/workspace/0/snow-mall-for-master/snow-mall/node_modules/@umijs/runtime';
 import { plugin } from './plugin';
 
 const routes = [
